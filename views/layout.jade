@@ -1,0 +1,209 @@
+html
+head
+	title CSI - Create Share Innovate
+	meta(charset='utf-8')
+	//if IE
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+	meta(name='robots', content='index, follow')
+	meta(name='keywords', content='CSI Website')
+	meta(name='description', content='CSI - Create Share Innovate')
+	meta(name='author', content='Team CSI')
+	meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+	meta(name='theme-color', content='#2a2b2f')
+	// FAVICONS
+	link(rel='shortcut icon', href='images/favicon/favicon.ico')
+	// CSS
+	// GOOGLE FONT
+	link(href='https://fonts.googleapis.com/css?family=Poppins:500,600,300%7COpen+Sans:400,300,700', rel='stylesheet', type='text/css')
+	// REVOSLIDER CSS SETTINGS
+	// REVOLUTION STYLE SHEETS
+	link(href='revolution/css/settings-custom.css', rel='stylesheet', type='text/css')
+	// BOOTSTRAP
+	link(rel='stylesheet', href='css/bootstrap.min.css')
+	// ICONS ELEGANT FONT & FONT AWESOME & LINEA ICONS
+	link(rel='stylesheet', href='css/icons-fonts.css')
+	// CSS THEME
+	link(rel='stylesheet', href='css/style.css')
+	// ANIMATE
+	link(rel='stylesheet', href='css/animate.min.css')
+	// CSS end
+	// JS begin
+	// jQuery
+	script(type='text/javascript', src='js/jquery.min.js')
+	// Include all compiled plugins (below), or include individual files as needed
+	script(src='js/bootstrap.min.js')
+	// MAGNIFIC POPUP
+	script(src='js/jquery.magnific-popup.min.js')
+	// PORTFOLIO SCRIPTS
+	script(type='text/javascript', src='js/imagesloaded.pkgd.min.js')
+	// APPEAR
+	script(type='text/javascript', src='js/jquery.appear.js')
+	// MAIN SCRIPT
+	script(src='js/main.js')
+	// JS end
+
+body
+		// LOADER
+		#loader-overflow
+			#loader3.loader-cont Please enable JS
+		// HEADER 1 FONT WHITE TRANSPARENT
+		.header-black-bg
+		// NEED FOR TRANSPARENT HEADER ON MOBILE
+		// HEADER 1 FONT WHITE TRANSPARENT
+		.header-black-bg
+		// NEED FOR TRANSPARENT HEADER ON MOBILE
+		header#nav.header.header-1.header-black.no-transparent.mobile-no-transparent
+			.header-wrapper.bg-gray-dark
+				.container-m-30.clearfix
+					.logo-row
+						// LOGO
+						.logo-container-2
+							.logo-2
+								a.clearfix(href='index.html')
+									img.logo-img(src='images/logo-white.png', alt='Logo')
+						// BUTTON
+						.menu-btn-respons-container
+							button#menu-btn.navbar-toggle.btn-navbar.collapsed(type='button', data-toggle='collapse', data-target='#main-menu .navbar-collapse')
+								span.icon_menu.hamb-mob-icon(aria-hidden='true')
+				// MAIN MENU CONTAINER
+				.main-menu-container
+					.container-m-30.clearfix
+						// MAIN MENU
+						#main-menu
+							.navbar.navbar-default(role='navigation')
+								// MAIN MENU LIST
+								nav.collapse.collapsing.navbar-collapse.right-1024
+									ul.nav.navbar-nav
+										// MENU ITEM
+										li.parent.current
+											a(href='/')
+												.main-menu-title Home
+										// MENU ITEM
+										li.parent
+											a.open-sub(href='#')
+												.main-menu-title What we do
+											ul.sub
+												li.parent
+													a.open-sub(href='#') Events
+													ul.sub
+														li
+															a(href='cine.html') CINE
+														li
+															a(href='initiative.html') The Initiative
+														li
+															a(href='rdm.html') RDM
+												li.parent
+													a.open-sub(href='#') Workshops
+													ul.sub
+														li
+															a(href='web_dev.html') Web Development
+														li
+															a(href='java_andro.html') Java And Android
+														li
+															a(href='eth_hack.html') Ethical Hacking
+										// MENU ITEM
+										li.parent.megamenu
+											a(href='index.html#services-link')
+												.main-menu-title Services
+										// MENU ITEM
+										li.parent
+											a(href='/about')
+												.main-menu-title About Us
+										// MENU ITEM
+										li.parent
+											a.open-sub(href='#')
+												.main-menu-title Our Team
+											ul.sub
+												li
+													a(href='alumni.html') Alumni
+												li
+													a(href='4 yr.html') 4th Year
+												li
+													a(href='3 yr.html') 3rd Year
+												li
+													a(href='2%20yr.html') 2nd Year
+										// MENU ITEM
+										li.parent
+											a(href='initiative.html')
+												.main-menu-title
+													strong
+														span(style='color: #ff8000') THE IN
+														span(style='color: #FFFFFF') ITIA
+														span(style='color: #008000') TIVE
+										// MENU ITEM
+										li.parent.megamenu
+											a(href='index.html#join-link')
+												.main-menu-title Join Us
+										// MENU ITEM
+										li#menu-contact-info-big.parent.megamenu
+											a(href='index.html#contact-link')
+												.main-menu-title Contact
+						// END main-menu
+					// END container-m-30
+				// END main-menu-container
+			// END header-wrapper
+		// COTENT CONTAINER
+		.container.p-160-cont
+			
+				block content
+				//content comes here
+
+		// FOOTER 3 FONT MONTSERRAT
+		footer#footer2.page-section.pt-95.pb-50.footer2-black
+			.container
+				.row
+					.col-md-2.col-sm-2.widget
+						.logo-footer-cont
+							br
+							br
+							a(href='index.html')
+								img( src='images/logo-footer.png', alt='logo')
+					.col-md-3.col-sm-3.widget
+						.footer2-text-cont
+							address.text-justify
+								h4 Address
+								|                     Basic IT Lab, Third Floor, CS-IT Block,Ajay Kumar Garg Engineering College, 27th Km Stone, Delhi - Hapur Bypass Road, Adhyatmik Nagar Ghaziabad - 201009
+								br
+								| Lab Timings: 4 PM Onwards
+						.footer2-text-cont
+							| +91-9997188960,+91-7065246961
+							br
+							a.a-text(href='mailto:csi@outlook.in')  csi@outlook.in
+					.col-md-5.col-sm-5.widget
+						h4 Mission
+						p.text-justify
+							| Our Mission is to facilitate research, knowledge sharing, learning and career enhancement for all categories of IT Professionals, while simultaneously inspiring and nurturing new entrants into the industry and helping them to integrate into the IT community. we are also working closely with other industry associations, government bodies and academia to ensure that the benefits of IT advancement ultimately percolate down to every single citizen of India.
+					.col-md-2.col-sm-2.widget
+						h4
+							strong Featured Links
+						ul.links-list.bold.a-text-cont.a-text-main-cont.font-poppins
+							li
+								a(href='http://www.akgec.in', target='_blank') Akgec
+							li
+								a(href='theinitiative/index.html', target='_blank') The Initiative
+							li
+								a(href='http://www.csi-india.org', target='_blank') CSI India
+							li
+								a(href='http://csi-india.org/eligibility.aspx', target='_blank') CSI Membership
+							//
+								<li><a href="cine.html">CINE</a></li>
+								<li><a href="rdm.html">RDM</a></li>
+				// SUB FOOTER
+				.footer2-copy-cont.clearfix
+					// Social Links
+					.footer2-soc-a.right
+						a(href='https://www.facebook.com/csi.akg/', title='Facebook', target='_blank')
+							i.fa.fa-facebook
+						a(href='http://twitter.com/csi_akgec', title='Twitter', target='_blank')
+							i.fa.fa-twitter
+						a(href='https://www.linkedin.com/company/computer-society-of-india', title='LinkedIn+', target='_blank')
+							i.fa.fa-linkedin
+					// Copyright
+					.left
+						a.footer2-copy(href='http://akgec.in/index.php/life-akgec/societies/csi', target='_blank') © CSI:AKGEC 2017
+						a.footer2-copy(href='privacy-policy.html', target='_blank') Privacy Policy
+						// <a class="footer2-copy" href="sitemap.html" target="_blank">Sitemap</a>
+		// BACK TO TOP
+		p#back-top
+			a(href='#top', title='Back to Top')
+				span.icon.icon-arrows-up
